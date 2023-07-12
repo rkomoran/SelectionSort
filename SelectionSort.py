@@ -1,13 +1,15 @@
+# Don't change any of the code that is here, there to fill in the question marks.
+# Talk to a buddy if you can't figure it out!
 def selection_sort(arr):
     for i in range(0, len(arr) - 1):
-        current_minimum = i #replace the i with a '?'
+        current_minimum = ? 
         for j in range(i + 1, len(arr)):
             if arr[j] < arr[current_minimum]:
-                current_minimum = j #replace the j with a '?'
-         # they implement this, maybe keep the first variables before = sign
-        temp = arr[i]
-        arr[i] = arr[current_minimum]
-        arr[current_minimum] = temp
+                current_minimum = ? 
+        
+        temp = ?
+        arr[i] = ?
+        arr[current_minimum] = ?
 
 arr = [2, 6, 5, 1, 3, 4]
 selection_sort(arr)
